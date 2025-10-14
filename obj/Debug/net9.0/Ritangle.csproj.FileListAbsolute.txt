@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\bin\Debug\net9.0\Ritangle.exe
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\bin\Debug\net9.0\Ritangle.deps.json
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\bin\Debug\net9.0\Ritangle.runtimeconfig.json
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\bin\Debug\net9.0\Ritangle.dll
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\bin\Debug\net9.0\Ritangle.pdb
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.AssemblyInfo.cs
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.dll
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\refint\Ritangle.dll
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.pdb
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.genruntimeconfig.cache
+C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\ref\Ritangle.dll
