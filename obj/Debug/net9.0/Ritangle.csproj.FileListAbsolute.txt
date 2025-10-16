@@ -12,3 +12,4 @@ C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\o
 C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.pdb
 C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.genruntimeconfig.cache
 C:\Users\User\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\ref\Ritangle.dll
+C:\Users\user\OneDrive - King Edward VI College, Stourbridge\ritangle\Ritangle\obj\Debug\net9.0\Ritangle.sourcelink.json
