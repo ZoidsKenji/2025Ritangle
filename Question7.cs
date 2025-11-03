@@ -29,14 +29,14 @@ public class Question7
 
         foreach ((int, int, int) time in ariTime)
         {
-            double barH = ((double)time.Item1 / 12) * 360;
+            double barS = ((double)time.Item3 / 60) * 360; 
+            double barM = (((double)time.Item2 / 60) * 360) + ((barS / 360) * 6); // 6 degree per min
+
+            double barH = ((double)time.Item1 / 12) * 360 + ((barM / 360) * 30); // 30 degree per hour
             if (time.Item1 >= 12)
             {
-                barH = (((double)time.Item1 - 12) / 12) * 360;
+                barH = (((double)time.Item1 - 12) / 12) * 360 + ((barM / 360) * 30);
             }
-
-            double barM = ((double)time.Item2 / 60) * 360;
-            double barS = ((double)time.Item3 / 60) * 360;
 
             double alpha = Math.Abs(barH - barM);
             double beta = Math.Abs(barM - barS);
