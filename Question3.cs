@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 
-public class Week3
+public class Question3
 {
     public List<int> dice = new List<int>();
     public float count = 0;

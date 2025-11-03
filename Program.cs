@@ -4,11 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Week1 week = new Week1();
-        Week2 week2 = new Week2();
-        Week3 week3 = new Week3();
-        //week.Run();
-        //week2.run();
-        week3.run();
+        Question1 q1 = new Question1();
+        Question2 q2 = new Question2();
+        Question3 q3 = new Question3();
+        //q1.Run();
+        //q2.run();
+        q3.run();
     }
 }

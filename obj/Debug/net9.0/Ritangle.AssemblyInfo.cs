@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ritangle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6521bdc25c9357b26c183de080756836ca1d5f78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02d960d1a9c1a0efb66c06e7db3654bfe0525cde")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ritangle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ritangle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

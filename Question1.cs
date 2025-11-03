@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 
-public class Week1
+public class Question1
 {
     public List<int> cogL = new List<int>();
     public List<int> cogM = new List<int>();
@@ -81,7 +81,7 @@ public class Week1
 
         Console.WriteLine("S/T: " + (numS / numT));
 
-        
+
 
     }
 }
