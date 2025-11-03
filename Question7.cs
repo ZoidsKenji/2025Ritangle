@@ -25,22 +25,22 @@ public class Question7
         //ariTime.RemoveAt(0);
         Console.WriteLine(ariTime.Count());
 
-        float minangle = 10000000000000;
+        double minangle = 10000000000000;
 
         foreach ((int, int, int) time in ariTime)
         {
-            float barH = ((float)time.Item1 / 12) * 360;
+            double barH = ((double)time.Item1 / 12) * 360;
             if (time.Item1 >= 12)
             {
-                barH = (((float)time.Item1 - 12) / 12) * 360;
+                barH = (((double)time.Item1 - 12) / 12) * 360;
             }
 
-            float barM = ((float)time.Item2 / 60) * 360;
-            float barS = ((float)time.Item3 / 60) * 360;
+            double barM = ((double)time.Item2 / 60) * 360;
+            double barS = ((double)time.Item3 / 60) * 360;
 
-            float alpha = Math.Abs(barH - barM);
-            float beta = Math.Abs(barM - barS);
-            float gamma = Math.Abs(barS - barH);
+            double alpha = Math.Abs(barH - barM);
+            double beta = Math.Abs(barM - barS);
+            double gamma = Math.Abs(barS - barH);
 
             if (alpha > 180)
             {
