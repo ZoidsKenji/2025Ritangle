@@ -32,20 +32,20 @@ public class Question25
                                         int c = (10 * c1) + c2;
                                         int d = (10 * d1) + d2;
 
-                                        double tempproduct = (Math.Pow((double)a, 1f / 2f) + Math.Pow((double)b, 1f / 2f)) * (Math.Pow((double)c, 1f / 2f) - Math.Pow((double)d, 1f / 2f));
+                                        double tempproduct = (Math.Sqrt(a) + Math.Sqrt(b)) * (Math.Sqrt(c) - Math.Sqrt(d));
 
-                                        bool a1different = (a1 != a2) && (a1 != b1) && (a1 != b2) && (a1 != c1) && (a1 != c2) && (a1 != d1) && (a1 != d2);
-                                        bool a2different = (a2 != b1) && (a2 != b2) && (a2 != c1) && (a2 != c2) && (a2 != d1) && (a2 != d2);
-                                        bool b1different = (b1 != b2) && (b1 != c1) && (b1 != c2) && (b1 != d1) && (b1 != d2);
-                                        bool b2different = (b2 != c1) && (b2 != c2) && (b2 != d1) && (b2 != d2);
-                                        bool c1different = (c1 != c2) && (c1 != d1) && (c1 != d2);
-                                        bool c2different = (c2 != d1) && (c2 != d2);
-                                        bool d1different = d1 != d2;
+                                        // bool a1different = (a1 != a2) && (a1 != b1) && (a1 != b2) && (a1 != c1) && (a1 != c2) && (a1 != d1) && (a1 != d2);
+                                        // bool a2different = (a2 != b1) && (a2 != b2) && (a2 != c1) && (a2 != c2) && (a2 != d1) && (a2 != d2);
+                                        // bool b1different = (b1 != b2) && (b1 != c1) && (b1 != c2) && (b1 != d1) && (b1 != d2);
+                                        // bool b2different = (b2 != c1) && (b2 != c2) && (b2 != d1) && (b2 != d2);
+                                        // bool c1different = (c1 != c2) && (c1 != d1) && (c1 != d2);
+                                        // bool c2different = (c2 != d1) && (c2 != d2);
+                                        // bool d1different = d1 != d2;
 
-                                        bool alldiff = a1different && a2different && b1different && b2different && c1different && c2different && d1different;
+                                        bool alldiff = new HashSet<int> { a1, a2, b1, b2, c1, c2, d1, d2 }.Count == 8;
                                         //Console.WriteLine(alldiff);
 
-                                        if ((tempproduct > product) && alldiff)
+                                        if ((tempproduct > product) && alldiff && (a > b))
                                         {
                                             product = tempproduct;
                                             numbers = [a1, a2, b1, b2, c1, c2, d1, d2];
