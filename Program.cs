@@ -8,6 +8,7 @@ class Program
         Question2 q2 = new Question2();
         Question3 q3 = new Question3();
         Question7 q7 = new Question7();
+        Question25 q25 = new Question25();
         Console.Write("Pick qustion: ");
         int input = int.TryParse(Console.ReadLine(), out int result) ? result : 0;
         while (true)
@@ -35,6 +36,10 @@ class Program
             {
                 q7.Run();
 
+            }
+            else if (input == 25)
+            {
+                q25.Run();
             }
             else if (input < 7 && input > 3)
             {
