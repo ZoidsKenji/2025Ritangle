@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Math;
 using System.Numerics;
-using System.Console;
 
 public class Question25
 {
     List<int> numbers = [0, 0, 0, 0, 0, 0, 0, 0]; // a1, a2, b1, b2, c1, c2, d1, d2
 
     int product = 0;
+    
     public void Run()
     {
         for (int a1 = 0; a1 < 10; a1 ++)
@@ -49,6 +49,6 @@ public class Question25
             }
         }
 
-        Console.WriteLine();
+        Console.WriteLine(numbers);
     }
 }
